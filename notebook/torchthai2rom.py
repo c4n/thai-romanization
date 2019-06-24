@@ -4,7 +4,7 @@ from torch import optim
 import torch.nn.functional as F
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-loader = torch.load("torchthai2rom.tar")
+loader = torch.load("thai2rom-pytorch.tar")
 
 
 
